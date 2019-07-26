@@ -3529,7 +3529,7 @@ pre .coffeescript .title {
   width: 100%;
   /*background-color: rgba(1,173,255,0.6);*/
   /*color: #FFFFFF;*/
-  color: rgba(85, 85, 85, 0.5);
+  color: rgb(85, 85, 85);
   margin: 0px auto;
   font-size: 14.875px;
   overflow: hidden;
@@ -3551,7 +3551,7 @@ pre .coffeescript .title {
 }
 #footer a {
   /*color: #FFFFFF;*/
-  color: rgba(85, 85, 85, 0.7);
+  color: rgba(85, 85, 85);
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
