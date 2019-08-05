@@ -828,7 +828,7 @@ ul.h-list > li {
   position: relative;
   display: flex;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1180px;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -916,7 +916,7 @@ ul.h-list > li {
 }
 .l_header .wrapper {
   padding: auto 20px;
-  max-width: 1300px;
+  max-width: 1180px;
   margin: auto;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -967,7 +967,7 @@ ul.h-list > li {
 .l_header .logo {
   padding: 0 20px;
   line-height: 56px;
-  font-size: 25.5px;
+  font-size: 27.2px;
   font-family: Skranji, 'Varela Round', "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   letter-spacing: 0;
 }
@@ -1081,7 +1081,7 @@ ul.h-list > li {
   width: 285px;
   height: 56px;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .l_header .m_search {
     width: 240px;
   }
@@ -1102,8 +1102,8 @@ ul.h-list > li {
 .l_header .m_search .icon {
   position: absolute;
   display: block;
-  line-height: 40px;
-  height: 40px;
+  line-height: 38px;
+  height: 38px;
   width: 32px;
   top: 0;
   left: 5px;
@@ -1114,7 +1114,7 @@ ul.h-list > li {
   display: block;
   font-size: 17px;
   line-height: 17px;
-  height: 40px;
+  height: 38px;
   width: 100%;
   color: rgba(255, 255, 255, 0.6);
   box-shadow: none;
@@ -1308,7 +1308,7 @@ ul.h-list > li {
   padding-right: 20px;
   float: left;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .l_main {
     width: calc(100% - 1 * 240px);
   }
@@ -1992,6 +1992,11 @@ canvas {
 .github-badge .bg-lightgray {
   background-color: #9f9f9f !important;
 }
+.footer-icon {
+  vertical-align: middle;
+  height: 17px;
+  margin-top: -5px;
+}
 .l_side {
   width: 285px;
   float: right;
@@ -1999,7 +2004,7 @@ canvas {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .l_side {
     width: 240px;
   }
@@ -2133,7 +2138,7 @@ canvas {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .widget.author .content img {
     width: 240px;
     height: 240px;
@@ -3529,7 +3534,7 @@ pre .coffeescript .title {
   width: 100%;
   /*background-color: rgba(1,173,255,0.6);*/
   /*color: #FFFFFF;*/
-  color: rgb(85, 85, 85);
+  color: #555555;
   margin: 0px auto;
   font-size: 14.875px;
   overflow: hidden;
@@ -3551,7 +3556,7 @@ pre .coffeescript .title {
 }
 #footer a {
   /*color: #FFFFFF;*/
-  color: rgba(85, 85, 85);
+  color: #555555;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
