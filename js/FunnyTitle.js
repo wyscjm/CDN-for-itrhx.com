@@ -1,17 +1,1 @@
-//浏览器搞笑标题
- var OriginTitle = document.title;
- var titleTime;
- document.addEventListener('visibilitychange', function () {
-     if (document.hidden) {
-         //$('[rel="icon"]').attr('href', "/img/trhx.png");
-         document.title = 'ヽ(●-`Д´-)ノ你丑你就走！';
-         clearTimeout(titleTime);
-     }
-     else {
-         //$('[rel="icon"]').attr('href', "/img/trhx.png");
-         document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！' + OriginTitle;
-         titleTime = setTimeout(function () {
-             document.title = OriginTitle;
-         }, 2000);
-     }
- });
+var OriginTitle=document.title;var titleTime;document.addEventListener("visibilitychange",function(){if(document.hidden){$('[rel="icon"]').attr("href","https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.0/images/title-icon1.png");document.title="快回来~页面崩溃了！";clearTimeout(titleTime)}else{$("[rel='icon']").attr("href","https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.0/images/title-icon2.png");document.title="其实并没有~";titleTime=setTimeout(function(){document.title=OriginTitle;$("[rel='icon']").attr("href","https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.0/images/favicon-32x32.png")},2000)}});
